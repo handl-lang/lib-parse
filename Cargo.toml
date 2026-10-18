@@ -13,9 +13,9 @@ handl-lib-ops = { git = "https://github.com/handl-lang/lib-ops", branch = "main"
 serde_json = "1"
 thiserror = "2"
 
+[patch."https://github.com/handl-lang/lib-ops"]
+handl-lib-ops = { path = "../lib-ops" }
+
 [patch."https://github.com/handl-lang/platform"]
 handl-platform = { path = "../platform/crates/platform" }
 handl-plugin-lib-handl = { path = "../platform/crates/plugin-lib-handl" }
-
-[patch."https://github.com/handl-lang/lib-ops"]
-handl-lib-ops = { path = "../lib-ops" }
