@@ -20,4 +20,8 @@
 cap "parse.parse"
 op "parse.parse" : (String * Value) -> Value
   guarantee: True
-handle "parse.parse" with rust_parse_parse
+handle "parse.parse" with parse
+
+--- Parser dispatch: the parser object is a record carrying a `parse`
+--- arrow — produced by `url_rfc.url_rfc`/`url_whatwg.url_whatwg`/…
+export parse := (input, parser) ~> (parser.parse)(input)
