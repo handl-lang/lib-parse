@@ -53,11 +53,6 @@ version = "0.1.0"
 source = "git+https://github.com/handl-lang/lib-char?branch=main#2f100b900a8272fa3893bf31261d0a67a3a8aad3"
 
 [[package]]
-name = "handl-lib-dedent"
-version = "0.1.0"
-source = "git+https://github.com/handl-lang/lib-dedent?branch=main#1105af1bb23460151898de724702a6499e379cc4"
-
-[[package]]
 name = "handl-lib-desugar"
 version = "0.1.0"
 source = "git+https://github.com/handl-lang/lib-desugar?branch=main#a717669d040a76b212efa5a2218ada3231eeb0b5"
@@ -213,7 +208,6 @@ name = "handl-plugin-lib-handl"
 version = "0.1.0"
 dependencies = [
  "handl-language 0.1.0 (git+https://github.com/handl-lang/kernel?branch=main)",
- "handl-lib-dedent",
  "handl-lib-desugar",
  "handl-lib-loader",
  "handl-lib-str-handl",
@@ -227,7 +221,6 @@ dependencies = [
  "hnl-engine-exec-bytecode",
  "hnl-engine-exec-tree-walk",
  "hnl-engine-lex-pattern",
- "hnl-engine-lint",
  "hnl-engine-parse-pratt",
  "hnl-engine-transform",
  "serde_json",
@@ -374,20 +367,6 @@ source = "git+https://github.com/handl-lang/engine-lex-pattern?branch=main#92231
 dependencies = [
  "handl-language 0.1.0 (git+https://github.com/handl-lang/kernel?branch=main)",
  "hnl-engine-lex",
-]
-
-[[package]]
-name = "hnl-engine-lint"
-version = "0.1.0"
-source = "git+https://github.com/handl-lang/engine-lint?branch=main#e646a5b6fb12a5b625c1d6ac0023907069bf8d0d"
-dependencies = [
- "handl-language 0.1.0 (git+https://github.com/handl-lang/kernel?branch=main)",
- "handl-plugin-ext-diag",
- "hnl-engine-lex-pattern",
- "hnl-engine-parse",
- "hnl-engine-parse-pratt",
- "hnl-engine-transform-rewrite",
- "serde_json",
 ]
 
 [[package]]
@@ -653,3 +632,47 @@ checksum = "29666d0abbfad1e3dc4dcf6144730dd3a3ab225bbbdac83319345b1b44ccfc1b"
 [[patch.unused]]
 name = "handl-lib-ops"
 version = "0.1.0"
+
+[[patch.unused]]
+name = "sepia-acp"
+version = "0.0.0"
+
+[[patch.unused]]
+name = "sepia-convert"
+version = "0.0.0"
+
+[[patch.unused]]
+name = "sepia-core"
+version = "0.0.0"
+
+[[patch.unused]]
+name = "sepia-driver"
+version = "0.0.0"
+
+[[patch.unused]]
+name = "sepia-driver-cline"
+version = "0.0.0"
+
+[[patch.unused]]
+name = "sepia-driver-devin"
+version = "0.0.0"
+
+[[patch.unused]]
+name = "sepia-host"
+version = "0.0.0"
+
+[[patch.unused]]
+name = "sepia-meta"
+version = "0.0.0"
+
+[[patch.unused]]
+name = "sepia-proto"
+version = "0.0.0"
+
+[[patch.unused]]
+name = "sepia-session"
+version = "0.0.0"
+
+[[patch.unused]]
+name = "sepia-testkit"
+version = "0.0.0"
