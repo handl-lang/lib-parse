@@ -1,1 +1,1 @@
-{ modules: ["parse"] }
+{ modules: ["parse"], description: "The parse port: Parser/DynParser traits and the parse.parse op.", license: "MIT" }
