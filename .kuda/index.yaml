@@ -1,21 +1,14 @@
 name: lib-parse
 root: /home/luis/GitHub/handl-lang/lib-parse
-purpose: ''
-modules:
-- handl-lib-parse
-- lib-parse
-commands:
-- cargo check
-- cargo test --workspace
+purpose: 'The `parse` port: the `Parser`/`DynParser` traits and the `parse.parse` op'
+modules: []
+commands: []
+tree_digest: da39a3ee5e6b4b0d3255bfef95601890afd80709
 provenance:
   files:
-  - Cargo.toml
-  - src/ops.rs
-  - src/lib.rs
+  - README.md
   hashes:
-  - 2233d781b991478e43dadecbe0fff32bc30f7f75
-  - cab7c35572d870a3536537b43c72e9d1a5bd00ec
-  - e18235b4944409251e7fc6f411f16e6325b8e21a
-  commit_sha: 250a034d2affcde4335a416a220a0e55130a8493
-  generated_at: '1792281229'
+  - 0c780d33c1f08f5c9baf29930f775c3c9481eeda
+  commit_sha: 952d3f149809209f97933bd45232ef319f3dcef6
+  generated_at: '1795484421'
   generator: kuda/0.1.0
