@@ -10,7 +10,7 @@ The `parse` **port**: the `Parser`/`DynParser` traits and the
 | --- | --- |
 | `src/index.hnl` | the port surface |
 | `pkg.hnl` | package manifest — `modules: ["parse"]` |
-| `scripts/hnl-gate.sh`, `ci.sh` | the gate / bupha entry |
+| `scripts/hnl-gate.sh`, `workflows/gate.yaml` | the gate / bupha entry |
 
 ## Contract
 
